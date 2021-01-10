@@ -453,10 +453,23 @@ img{
 .previous_data {
     margin-left:auto;
     margin-right: auto;
-    width: 300px;
+    width: 500px;
 }
 
-ul { 
-	display: inline-block; 
-	text-align: left; 
+.previous_title{
+    text-align: center;
+}
+
+
+
+/*========== MEDIA QUERIES ==========*/
+@media screen and (max-width: 576px){
+    
+
+    .previous_data {
+        margin-left:auto;
+        margin-right: auto;
+        width: 300px;
+    }
+
 }
