@@ -456,7 +456,7 @@ img{
     width: 500px;
 }
 
-.previous_title{
+.previous__title{
     text-align: center;
 }
 
@@ -466,7 +466,7 @@ img{
 @media screen and (max-width: 576px){
     
 
-    .previous_data {
+    .previous_data, .previous__title {
         margin-left:auto;
         margin-right: auto;
         width: 300px;
