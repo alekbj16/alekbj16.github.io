@@ -69,7 +69,8 @@ const sr = ScrollReveal({
 
 sr.reveal(`.home__data, .home__img,
             .about__data, .about__img,
-            .board__content, .contact__container`, {
+            .board__content, .contact__container, .previous_data,
+            .board__description, board__initial`, {
     interval: 200
 })
 
